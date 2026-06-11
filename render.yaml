@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: lania-laravel-demo
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: APP_NAME
+        value: Lania Demo
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: false
+      - key: LOG_CHANNEL
+        value: stderr
+      - key: DB_CONNECTION
+        value: sqlite
+      - key: DB_DATABASE
+        value: /var/www/html/database/database.sqlite
+      - key: SESSION_DRIVER
+        value: file
+      - key: CACHE_STORE
+        value: file
+      - key: QUEUE_CONNECTION
+        value: sync
