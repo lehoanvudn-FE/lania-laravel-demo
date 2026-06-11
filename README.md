@@ -27,6 +27,16 @@ Mở `http://127.0.0.1:8000`.
 
 Repo có sẵn `Dockerfile` và `render.yaml`. Trên Render:
 
+1. Bấm nút deploy:
+
+   [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/lehoanvudn-FE/lania-laravel-demo)
+
+2. Đăng nhập Render và approve Blueprint.
+3. Chọn plan `Free`.
+4. Deploy.
+
+Hoặc deploy thủ công:
+
 1. New > Blueprint hoặc Web Service.
 2. Chọn repo GitHub này.
 3. Chọn plan `Free`.
